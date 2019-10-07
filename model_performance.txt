@@ -1,0 +1,12 @@
+Prediction:
+
+inceptionNet is very good at classifying beater 76.74% sure of parallel bars, 20.69% horizontal_bar 1.6% other
+resNet was ok at classification 30.91 % pole, 12.78% prison, 10.49% parallel_Bars, 10.32% horizontal bars
+squeezeNet is not even close, none of its top 5 guesses are even remotely similar to beater all are below 15% however
+denseNet likewise is fairly off its top guess is pier at 20% 4th guess is parallel_bars at 8%
+resCoco doesn't work with the current architecture, maybe its used for object detection instead?
+---------------
+Object Detection:
+
+resCoco is for use on object detection
+
